@@ -1,0 +1,29 @@
+h1 {
+  font-size: 50px;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#tiger{
+  background-color: #ff0000;
+  width: 450px;
+  height: 300px;
+  float: left;
+  margin: 50px;
+}
+
+#landon {
+  background-color: #00ff00;
+  width: 450px;
+  height: 300px;
+  float: left;
+  margin: 50px;
+}
