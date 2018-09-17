@@ -20,10 +20,6 @@ function variables() {
   document.getElementById('1c').innerHTML = spicy.veg;
   document.getElementById('1d').innerHTML = spicy.sauce;
   document.getElementById('1e').innerHTML = spicy.price;
-  
-}
-
-function ingredients() {
   document.getElementById('2a').innerHTML = mild.name;
   document.getElementById('2b').innerHTML = mild.meat;
   document.getElementById('2c').innerHTML = mild.veg;
@@ -31,14 +27,16 @@ function ingredients() {
   document.getElementById('2e').innerHTML = mild.price;
 }
 
+ var tax = 1.04712;
+
 function spicyBurger(){
-  var tax = 1.04712;
+ 
   var total= spicy.price * tax;
   document.getElementById('total').innerHTML = "Your total is $" + total.toFixed(2);
 }
 
 function mildBurger(){
-  var tax = 1.04712;
+
   var total = mild.price * tax;
   document.getElementById('final').innerHTML = "Your total is $" + total.toFixed(2);
 }
